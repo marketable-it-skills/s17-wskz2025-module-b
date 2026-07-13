@@ -60,8 +60,7 @@ The page contains a list of categories (ID, name, number of adverts in `publishe
 
 ### Users Page
 
-The page contains a list of users (ID, name, phone, email, number of adverts in `published` status).
-The page must have one text field for searching by ID, phone number, and email at the same time (exact match).
+The page must provide one search field that searches the user ID, phone number, and email address. The search must use a literal, case-insensitive partial-text match: return users when the entered text occurs in any of these fields. Do not use fuzzy matching, typo tolerance, or similarity-based matching.
 
 ### Adverts Page
 
